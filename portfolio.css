@@ -52,6 +52,10 @@ a {
 }
 /*header*/
 /*main*/
+.sec1-but:hover {
+    color: #2196F3
+}
+
 .sec2-img {
     height: 294px;
 }
