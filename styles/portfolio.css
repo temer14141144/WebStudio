@@ -1,8 +1,5 @@
-a {
-    text-decoration: none;
-}
-
 /*header*/
+
 .head-title {
     font-family: "Raleway";
     font-style: normal;
@@ -50,8 +47,12 @@ a {
 .nav-info:hover {
     color: #2196F3;
 }
+
 /*header*/
+
+
 /*main*/
+
 .sec1-but:hover {
     color: #2196F3
 }
@@ -59,8 +60,12 @@ a {
 .sec2-img {
     height: 294px;
 }
+
 /*main*/
+
+
 /*footer*/
+
 .foot-title {
     font-family: "Raleway";
     font-style: normal;
@@ -110,4 +115,5 @@ a {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
 /*footer*/
