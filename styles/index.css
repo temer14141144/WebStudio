@@ -1,6 +1,12 @@
 /*header*/
 
+.header {
+    height: 80px;
+    padding: 24px 0 25px;
+}
+
 .head-title {
+    margin-right: 93px;
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -12,7 +18,6 @@
 
 .head-web {
     font-family: "Raleway";
-    font-style: normal;
     font-weight: 700;
     line-height: 1.19;
     font-size: 26px;
@@ -20,9 +25,14 @@
     color: #2196F3;
 }
 
+.head-list {
+    margin-right: 294px;
+}
+
 .nav-item {
+    margin-right: 50px;
+    display: inline;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     line-height: 1.14;
     font-size: 14px;
@@ -34,7 +44,16 @@
     color: #2196F3
 }
 
+a#head-info {
+    margin-right: 0;
+}
+
+a#nav-info {
+    margin-right: 50px;
+}
+
 .nav-info {
+    display: inline;
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.14;
@@ -55,16 +74,12 @@
 .main-sec1 {
     background: #2F303A;
     height: 600px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding: 200px 0 200px;
 }
 
 .sec1-title {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
+    margin-bottom: 30px;
+    padding:0 270px 0 270px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -77,6 +92,10 @@
 }
 
 .sec1-service {
+    height: 50px;
+    width: 216px;
+    margin: 0 477px 0 477px;
+    padding-left: 32px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -85,18 +104,18 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    position: absolute;
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
 }
 
+.main-sec2 {
+    padding: 94px 0 94px;
+}
+
 .sec2-title {
+    display: inline;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -106,12 +125,17 @@
 }
 
 .sec2-info {
+    display: inline;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.main-sec3 {
+    padding-bottom: 94px;
 }
 
 .sec3-title {
@@ -122,10 +146,19 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 59px;
+}
+
+img#sec3-img {
+    padding: 0 30px 0 30px;
 }
 
 .sec3-img {
-    height: 294px;
+    width: 370px;
+}
+
+.main-sec4 {
+    padding-top: 94px;
 }
 
 .sec4-title {
@@ -136,6 +169,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
 .sec4-worker {
@@ -163,8 +197,27 @@
 
 /*footer*/
 
+h1#foot-nav {
+    display: block;
+}
+p#foot-nav {
+    display: block;
+}
+
+a#foot-nav {
+    display: block;
+}
+
+
+.footer {
+    background: #2F303A;
+    height: 252px;
+    padding: 60px 0 60px;
+}
+
 .foot-title {
     font-family: "Raleway";
+    font-style: normal;
     font-weight: 700;
     line-height: 1.19;
     font-size: 26px;
@@ -174,6 +227,7 @@
 
 .foot-web {
     font-family: "Raleway";
+    font-style: normal;
     font-weight: 700;
     line-height: 1.19;
     font-size: 26px;
@@ -183,6 +237,7 @@
 
 .foot-adress {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -192,6 +247,7 @@
 
 .foot-info {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -199,8 +255,9 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.foot-number {
+.foot-number     {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
