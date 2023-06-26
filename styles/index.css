@@ -92,6 +92,7 @@ a#nav-info {
 }
 
 .sec1-service {
+    border: none;
     height: 50px;
     width: 216px;
     margin: 0 477px 0 477px;
