@@ -31,7 +31,6 @@
 
 .nav-item {
     margin-right: 50px;
-    display: inline;
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.14;
@@ -53,7 +52,6 @@ a#nav-info {
 }
 
 .nav-info {
-    display: inline;
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.14;
@@ -83,18 +81,6 @@ a#nav-info {
 
 
 /*footer*/
-
-h1#foot-nav {
-    display: block;
-}
-p#foot-nav {
-    display: block;
-}
-
-a#foot-nav {
-    display: block;
-}
-
 
 .footer {
     background: #2F303A;

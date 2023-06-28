@@ -9,7 +9,3 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
-
-li,ul, ol, h1, p {
-    display: inline-block;
-}
