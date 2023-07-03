@@ -6,14 +6,14 @@
 }
 
 .head-title {
+    display: inline;
     margin-right: 93px;
     font-family: "Raleway";
-    font-style: normal;
     font-weight: 700;
     line-height: 1.19;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #000;
 }
 
 .head-web {
@@ -27,9 +27,23 @@
 
 .head-list {
     margin-right: 294px;
+    display: flex;
+}
+
+.head-nav {
+    display: flex;
+}
+
+.head-ul {
+    display: flex;
+}
+
+.head-ul li:nth-child(1) {
+    padding-right: 50px;
 }
 
 .nav-item {
+    display: flex;
     margin-right: 50px;
     display: inline;
     font-family: 'Roboto';
@@ -44,16 +58,8 @@
     color: #2196F3
 }
 
-a#head-info {
-    margin-right: 0;
-}
-
-a#nav-info {
-    margin-right: 50px;
-}
-
 .nav-info {
-    display: inline;
+    display: flex;
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.14;
@@ -79,7 +85,7 @@ a#nav-info {
 
 .sec1-title {
     margin-bottom: 30px;
-    padding:0 270px 0 270px;
+    padding: 0 270px 0 270px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -125,8 +131,13 @@ a#nav-info {
     text-transform: uppercase;
 }
 
+.sec2-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .sec2-info {
-    display: inline;
+    display: flex;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -150,8 +161,9 @@ a#nav-info {
     margin-bottom: 59px;
 }
 
-img#sec3-img {
-    padding: 0 30px 0 30px;
+.sec3-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .sec3-img {
@@ -159,6 +171,8 @@ img#sec3-img {
 }
 
 .main-sec4 {
+    background: #F5F4FA;
+    height: 648px;
     padding-top: 94px;
 }
 
@@ -173,22 +187,32 @@ img#sec3-img {
     margin-bottom: 50px;
 }
 
+.sec4-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4-item {
+    height: 368px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
 .sec4-worker {
+    text-align: center;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
 .worker-info {
+    text-align: center;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -201,6 +225,7 @@ img#sec3-img {
 h1#foot-nav {
     display: block;
 }
+
 p#foot-nav {
     display: block;
 }
@@ -256,7 +281,7 @@ a#foot-nav {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.foot-number     {
+.foot-number {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;

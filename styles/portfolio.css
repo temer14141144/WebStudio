@@ -6,14 +6,14 @@
 }
 
 .head-title {
+    display: inline;
     margin-right: 93px;
     font-family: "Raleway";
-    font-style: normal;
     font-weight: 700;
     line-height: 1.19;
     font-size: 26px;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #000;
 }
 
 .head-web {
@@ -27,10 +27,25 @@
 
 .head-list {
     margin-right: 294px;
+    display: flex;
+}
+
+.head-nav {
+    display: flex;
+}
+
+.head-ul {
+    display: flex;
+}
+
+.head-ul li:nth-child(1) {
+    padding-right: 50px;
 }
 
 .nav-item {
+    display: flex;
     margin-right: 50px;
+    display: inline;
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.14;
@@ -43,15 +58,8 @@
     color: #2196F3
 }
 
-a#head-info {
-    margin-right: 0;
-}
-
-a#nav-info {
-    margin-right: 50px;
-}
-
 .nav-info {
+    display: flex;
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 1.14;
@@ -81,6 +89,19 @@ a#nav-info {
 
 
 /*footer*/
+
+h1#foot-nav {
+    display: block;
+}
+
+p#foot-nav {
+    display: block;
+}
+
+a#foot-nav {
+    display: block;
+}
+
 
 .footer {
     background: #2F303A;
@@ -128,7 +149,7 @@ a#nav-info {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.foot-number     {
+.foot-number {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
